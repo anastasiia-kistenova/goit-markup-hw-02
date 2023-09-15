@@ -1,19 +1,19 @@
-.name-company {
+.name-company-link {
     color: #4D5AE5;
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
 
-.name-company-link {
+.name-company {
     color: #2E2F42;
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
@@ -41,15 +41,16 @@
 background-color: #4D5AE5;
 color: #FFFFFF;
 cursor: pointer;
-border-radius: 4px;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-display: inline-flex;
- padding: 16px 32px;
-align-items: flex-start;
-gap: 10px;
+font-family: Raleway, sans-serif;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+
 }
 
-.button-order:hover {
+.button-order:hover,
+.button-order:focus
+{
 background-color: #404BBF;
 }
 
@@ -60,7 +61,9 @@ background-color: #404BBF;
 }
 
 .nav-address .nav-address-mail {
-    color: #2E2F42;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 ul {
@@ -78,7 +81,7 @@ ul {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
@@ -120,10 +123,10 @@ text-transform: capitalize;
 
 .name-company-down {
 color: #F4F4FD;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -135,5 +138,11 @@ color: #F4F4FD;
 }
 
 .main-text {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.address {
+    font-style: normal;
 }

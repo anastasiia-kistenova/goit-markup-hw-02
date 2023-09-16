@@ -6,6 +6,7 @@
         line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
+        text-decoration: none;
 }
 
 .name-company {
@@ -85,6 +86,22 @@ ul {
     letter-spacing: 1.12px;
 }
 
+.advatages {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.advatages-text {
+
+font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 .section-two-title {
 color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
@@ -95,15 +112,57 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 }
 
+.section-two {
+
+    background-color: #F4F4FD;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.team-title {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
 .section-three-title {
 
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    line-height: 1.11;
+}
+
+
+.product-name {
+
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.product {
+
+font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
 }
 
 .down-page-text {
@@ -132,10 +191,8 @@ color: #F4F4FD;
     text-decoration: none;
 }
 
-.section-two {
 
-    background-color: #F4F4FD;
-}
+
 
 .main-text {
     font-family: Roboto, sans-serif;
@@ -146,3 +203,4 @@ color: #F4F4FD;
 .address {
     font-style: normal;
 }
+
